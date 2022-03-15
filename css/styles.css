@@ -16,7 +16,9 @@
 }
 
 
-
+div.card {
+    background-color:transparent !important;
+}
 
 
 .copyright{
