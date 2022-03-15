@@ -15,9 +15,7 @@ $(".dev").click(function(){
     $(".img-dev").slideToggle()
 })
 
-$(".product").click(function(){
-    $(".prod-img").slideToggle()
-    $(".p-prod").slideToggle()
+
 })
 
 $('#send').click(function(){
