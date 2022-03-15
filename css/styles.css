@@ -58,12 +58,14 @@ div.card {
      padding-top: 5%;
   }
 
-
-
   .section{
      
   }
 
+socials li{
+   display: inline-block;
+
+}
 
  
 
