@@ -10,14 +10,14 @@ $(".des").click(function(){
     $(".pdes").slideToggle()
 })
 
-$(".des").click(function(){
-    $(".design").slideToggle()
-    $(".pdes").slideToggle()
+$(".dev").click(function(){
+    $(".p-dev").slideToggle()
+    $(".img-dev").slideToggle()
 })
 
-$(".des").click(function(){
-    $(".design").slideToggle()
-    $(".pdes").slideToggle()
+$(".product").click(function(){
+    $(".prod-img").slideToggle()
+    $(".p-prod").slideToggle()
 })
 
 $('#send').click(function(){
