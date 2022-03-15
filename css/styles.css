@@ -13,7 +13,7 @@
     background-image: url("../Backgrounds/services.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-   }
+}
 
 
 div.card {
@@ -21,9 +21,9 @@ div.card {
 }
 
 
- .copyright{
+.copyright{
     text-align: center ;
- }
+}
 
 .socials{
      display: inline-block;
@@ -43,31 +43,59 @@ div.card {
      background-image: url("../Backgrounds/first.jpg");
      background-size: cover;
      
- }
+}
  
-
- /* .services, background image{
-    max-height: 100%;
-    max-width: 300ch;
-    margin-left: 20%;
-    margin-right: 10%;
- }
-  */
-  .serv{
+.serv{
      margin-top: 100px;        
      padding-top: 5%;
-  }
-
-  .section{
-     
-  }
-
-socials li{
-   display: inline-block;
-
 }
 
- 
+
+.card{
+   background-image: url(../Backgrounds/form.jpg);
+   background-size:cover ;
+   height: 50vh
+}
+
+.pdes,.p-dev,.p-prod{
+   display: none;
+}
+
+.proj-1 img{
+   height: 250px;
+   width: 230px;
+}
+.proj1-p{
+   /* float: left; */
+   color: white;
+   opacity: 0.2;
+   border: 3px solid white;
+   background-color: black;
+   -ms-transform: translate(-20%, -20%);
+   transform: translate(-20%, -20%);
+   /* text-align: center; */
+   position: absolute;
+   height: 150px;
+   width: 60%;
+   font-weight: 700;
+   /* display: none; */
+   top: 30%;
+   left: 30%;
+   right: 20%;
+}
+
+.contact{
+   background-image: url("../Backgrounds/form.jpg");
+    
+}
+#name,#email,#message{
+   background-color: transparent;
+   border: 2px solid white;
+}
+ ::placeholder{
+    color: white;
+
+ }
 
 
 
