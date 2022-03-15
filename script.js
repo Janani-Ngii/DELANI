@@ -15,7 +15,9 @@ $(".dev").click(function(){
     $(".img-dev").slideToggle()
 })
 
-
+$(".product").click(function(){
+    $(".prod-img").slideToggle()
+    $(".p-prod").slideToggle()
 })
 
 $('#send').click(function(){
@@ -26,7 +28,6 @@ $('#send').click(function(){
     if(name == ""|| email ==""||message ==""){
         alert(`You cannot submit an empty field`);
     }
-    else{
-        alert("Thank you " +name+" for contacting us.")}
+    
     })
     })
